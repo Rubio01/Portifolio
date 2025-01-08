@@ -13,7 +13,7 @@
 
 <body>
    <header>
-        <div id="header_content">
+        <div id="header_content" class="flex">
             <div id="titulo">
                 <h1>Rubio Dainton</h1>
             </div>
@@ -29,27 +29,41 @@
                
    </header>
    <main>
-        <section id="about"></section>
-        <h2>Sobre mim</h2>
-        <div id="conteudo">
-            <img class ="img_user"src="./assets/img/user_01.svg" alt="Foto do cirador desse conteudo">
-            <article id="sobre_texto">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Vitae incidunt commodi sapiente facilis, pariatur reiciendis
-                    odit cupiditate nobis quam ducimus sit ad minima esse fugit o
-                    dio nesciunt? Voluptates, provident placeat.
-                </p>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam eveniet 
-                    nisi fugit magnam dolor blanditiis soluta saepe similique. 
-                    Nemo doloremque enim quia? Dignissimos itaque quos temporibus soluta,
-                    nemo laborum placeat!</p>
-            </article>
-        </div>
-        <section id="video">
+        <section id="about" class="flex_start">
+
+            <h2>Sobre mim</h2>
+
+            <div id="conteudo" class="flex">
+                <img class ="img_user"src="./assets/img/profile.jpg" alt="Foto do cirador desse conteudo">
+                <article id="sobre_texto">
+                    <p>
+                        Estudante de Engenharia da Computação na Univesp e desenvolvedor Full Stack
+                        com experiência pelo Bootcamp Java Full Stack da Generation Brasil.
+                        Tenho conhecimento em integração de APIs, manutenção de banco de dados e
+                        desenvolvimento orientado a objetos. Domino tecnologias como Java, Spring,
+                        SQL, JPA/Hibernate, JavaScript, Html, CSS, React, DockerFile além de metodologias 
+                        ágeis. Habilidades comportamentais como trabalho em equipe, resiliência, 
+                        persistência e senso de responsabilidade e mentalidade de crescimento.
+                    </p>
+                    <p>
+                        Experiência em processos de atendimento ao cliente interno e externo, 
+                        suporte na área da tecnologia da informação, solução de problemas
+                        técnicos, conserto de computadores, trocas de hardwares, instalação
+                        de softwares e configuração de sistemas. Autodidata, aprendizagem 
+                        fácil e amante de desafios e resolução de problemas. 
+                        Estou entusiasmado para fazer parte de uma equipe dinâmica
+                        e colaborativa. Pronto para superar desafios
+                        e impactar positivamente o mundo por meio da tecnologia.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="video" class="flex_start">
+
             <h2>Vídeo da semana </h2>
-            <div id="youtube">
+
+            <div id="youtube" class="flex">
                 <iframe 
                 width="560" 
                 height="315" 
@@ -63,15 +77,15 @@
         </section>
 
    </main>
-   <footer>
-        <section id="redes_sociais">
-            <a href="">
+   <footer class="flex">
+        <section id="redes_sociais" >
+            <a href="https://www.linkedin.com/in/rubiodainton/" class="social_icon" target="_blank">
                 <img src="assets/img/linkedin.svg" alt="linkedin">
             </a>
-            <a href="">
+            <a href="https://github.com/Rubio01" class="social_icon" target="_blank">
                 <img src="assets/img/github.svg" alt="github">
             </a>
-            <a href="">
+            <a href="" class="social_icon" target="_blank">
                 <img src="assets/img/instagram.svg" alt="instagram">
             </a>
         </section>
